@@ -1,0 +1,89 @@
+<!DOCTYPE html> 
+ <html manifest="/cache.appcache">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>laba8</title>
+    <link rel="stylesheet"  href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet"  href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/my.js"></script>
+    <script src="js/admin.js"></script>
+  </head>
+  <body>
+  	<div class="navbar navbar-inverse navbar-fixed-top">
+  		<div class='container'>
+  			<div class="navbar-header">
+  				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+  					<span class="icon-bar"></span>
+  					<span class="icon-bar"></span>
+  					<span class="icon-bar"></span>
+  				</button>
+  				<a class="navbar-brand" href="http://iot.lviv.ua/">I<i class="fa fa-cog" aria-hidden="true"></i>T</a>
+  			</div>
+  			<div class="navbar-collapse collapse">
+  				<ul class="nav navbar-nav navbar-right">
+  					<li><a href="index.html">Головна</a></li>
+          		<li><a href="News.html">Новини</a></li>
+          		<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Студентам</a>
+						<ul class="dropdown-menu">
+							<li><a href="Students.html">Програма</a></li>
+							<li><a href="#">Лабораторні</a></li>
+							<li><a href="#">Література</a></li>
+						</ul>
+          		</li>
+          		<li class="active"><a href="Coment.html">Відгуки</a></li>
+          		<li><a href="Contact.html">Контакти</a></li>
+          		<li><a href="Admin.html"><i class="fa fa-lock" aria-hidden="true"></i> Admin</a></li>
+        		</ul>
+  			</div>
+  		</div>	
+  	</div>
+<div class="content">
+    <div class="container">
+        <div class="reviews" id="reviews">
+            <div class="review divider_bottom" data-divid="divId_0">    
+                <div class="user_name"><h1>Любитель хот-догів</h1></div>
+                <div class="review_time"><h4>11.11.2017, 14:00</h4></div>
+                <div class="review_text">
+                    <p>Супер шпикачка</p>   
+                </div>
+            </div>
+            <div class="review divider_bottom" data-divid="divId_1">    
+                <div class="user_name"><h1>Вася Пупкін</h1></div>
+                <div class="review_time"><h4>11.11.2017, 14:00</h4></div>
+                <div class="review_text">
+                    <p>Де купити цю саму шпикачку</p>   
+                </div>
+            </div>
+        </div>    
+            <div class="row" id="newResponseField">
+      <div class = "col-lg">
+        <div class="form-group">
+          <textarea class="form-control" rows="1" id="name" placeholder="Ваше ім'я..."></textarea>
+          <br>
+          <textarea class="form-control" rows="5" id="comment" placeholder = "Новий відгук..."></textarea>
+        </div>
+        <button class="btn btn-primary float-right" type="submit" onclick="addFeedback()">Відправити</button>
+      </div>
+    </div>
+</div>
+	<div class="footer">
+	  	<div class="container centered">
+	  		<a href="#"><i class="fa fa-facebook"></i></a>
+	  		<a href="#"><i class="fa fa-twitter"></i></a>
+	  		<a href="#"><i class="fa fa-vk"></i></a>
+		</div>
+	 </div>
+    <script src="js/feedback.js"></script>
+  <script>
+    show();
+  </script>
+  <script src="js/jquery-3.2.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  </body>
+</html>

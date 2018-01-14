@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+body {
+ 	background-color: #D3D3D3;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    font-smoothing: antialiased;
+    overflow-scrolling;
+
+    margin-top: 70px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Raleway";
+	font-weight: 300;
+	color: #333;
+}
+
+p {
+	font-size: 18px;
+	line-height: 28px;
+	margin-bottom: 10px;
+}
+
+.centered {
+	text-align: center;
+}
+
+a {
+	color: #727171;
+}
+
+i.fa {
+ color: white;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #297c77;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.navbar {
+	font-weight: 200;
+	font-size: 17px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.navbar-brand {
+	font-weight: 200;
+	font-size: 25px;
+	color: white !important;
+}
+
+.navbar-inverse {
+	border-color: white;
+}
+
+.navbar-inverse .navbar-nav a:hover {
+	color: #00FFFF !important;
+}
+
+.navbar-inverse .navbar-nav > .active > a{
+	background-color: #636363;
+}
+
+.navbar-inverse .navbar-brand {
+	font-weight: bolder;
+	font-size: 25px;
+}
+
+.dropdown-menu{
+	background-color: #D3D3D3;
+	font-size: 20px;
+	padding: 10px;
+	border-color: black;
+}
+
+#photo {
+	background: url('../img/IoT-logo.png');
+	margin-top: -5px;
+	padding-top: 180px;
+	background-attachment: relative;
+	background-position: center center;
+}
+
+.content {
+	background-color: #808000;
+	border-top-style: solid;
+	border-color: #D3D3D3 ;
+	border-top-width: 5px;	
+
+}
+
+.table {
+	background-color: #e0e0e0;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	padding: 0 20px 20px 20px;
+}
+
+.big_title{
+	color: white;
+}
+
+.footer {
+	background-color: #636363;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.footer i{
+	color: #bdbdbd;
+	font-size: 30px;
+	padding: 20px;
+}
+
+.footer i:hover{
+	color: white;
+}
+
+
+.thumbnail {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+td {
+    font-size: 100%;
+}
+
+th {
+    font-size: 130%;
+}
+
+.student_page {
+    padding: 20px 0 20px 0;
+}
+
+.table {
+    width: 90%;
+    margin: 0 5% 5% 5%;
+}
+
+.table .hover_tr:hover {
+    background-color:  #00FFFF !important;
+}
+
+
+.user_name {
+    margin-right: 10%;
+    display: inline-block;
+}
+
+.review_time {
+    display: inline-block;
+}
+
+.review_text {
+    font-size: 130%;
+    color: white;
+}
+
+label {
+    font-size: 140%;
+    color: black;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:40.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.news_text_admin_page {
+    margin-bottom: 2%;
+}
+
+.news_short_text_admin_page { 
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.fileinput {
+    margin-bottom: 9px;
+    display: inline-block;
+    width: 100%;
+}
+
+.admin_page_uppload_news {
+    padding-bottom: 2%;
+}
+
+.admin_page_news_uppload_title {
+    margin: 2% 5% 2% 5%;
+}
+
+.thumbnail {
+    margin-bottom: 0;
+} 
+
+.preview_image {
+    width: 100%; 
+    height: 22.7em;
+}
+
+.preview_image img {
+    width: 100%;
+    height: 100%;
+}
+
+.remove_image_button,.uppload_image_button,.news_title_admin_page {
+    margin-top: 2%;
+}
+
+.news_text_admin_page,.news_title_admin_page {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+
+
+
+
+
